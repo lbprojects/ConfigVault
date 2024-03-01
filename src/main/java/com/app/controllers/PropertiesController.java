@@ -38,6 +38,7 @@ public class PropertiesController {
         return new ResponseEntity<>(property, HttpStatus.OK);
     }
 
+
     @DeleteMapping("/{id}")
     public ResponseEntity<APIResponse> deleteProperty(@PathVariable Long id) {
         propertiesService.deleteProperty(id);
