@@ -25,7 +25,6 @@ public abstract class BaseEntity {
     private String description;
     private String jira;
 
-    @Size(min = 2, max = 20)
     private String user;
 
     @Size(max = 200)
