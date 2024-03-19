@@ -43,7 +43,8 @@ public class KeysServiceImpl implements KeysService {
         savedKey.setDescription(key.getDescription());
         savedKey.setValue(key.getValue());
         savedKey.setCreator(key.getCreator());
-        savedKey.setJira(key.getJira());
+        savedKey.setJiraName(key.getJiraName());
+        savedKey.setJiraUrl(key.getJiraUrl());
         savedKey.setUser(key.getUser());
         savedKey.setEnvironment(key.getEnvironment());
         savedKey.setLastUpdated(new Date());

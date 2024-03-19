@@ -23,7 +23,9 @@ public abstract class BaseEntity {
     private Long id;
 
     private String description;
-    private String jira;
+    private String jiraName;
+
+    private String jiraUrl;
 
     private String user;
 

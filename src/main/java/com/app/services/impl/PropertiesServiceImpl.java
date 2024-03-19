@@ -43,7 +43,8 @@ public class PropertiesServiceImpl implements PropertiesService {
         savedProperty.setDescription(property.getDescription());
         savedProperty.setValue(property.getValue());
         savedProperty.setCreator(property.getCreator());
-        savedProperty.setJira(property.getJira());
+        savedProperty.setJiraName(property.getJiraName());
+        savedProperty.setJiraUrl(property.getJiraUrl());
         savedProperty.setUser(property.getUser());
         savedProperty.setEnvironment(property.getEnvironment());
         savedProperty.setLastUpdated(new Date());
